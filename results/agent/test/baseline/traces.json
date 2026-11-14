@@ -1,0 +1,1275 @@
+[
+ {
+  "query_id": "q16",
+  "question": "Giờ làm việc ban đêm được tính từ mấy giờ đến mấy giờ?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Giờ làm việc ban đêm được tính từ 22 giờ đến 06 giờ sáng ngày hôm sau [blld-2019:B:p040:000].",
+  "citations": [
+   "blld-2019:B:p040:000"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 2095,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "giờ làm việc ban đêm",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p040:000",
+      "page": 40,
+      "score": 0.905252,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p039:004",
+      "page": 39,
+      "score": 0.865866,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p053:003",
+      "page": 53,
+      "score": 0.863684,
+      "rank": 3
+     }
+    ],
+    "ms": 95
+   },
+   {
+    "event": "llm",
+    "ms": 1633,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p040:000",
+   "blld-2019:B:p039:004",
+   "blld-2019:B:p053:003"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1649,
+   "completion_tokens": 84
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.82
+ },
+ {
+  "query_id": "q17",
+  "question": "Đạo luật này bắt đầu được áp dụng từ thời điểm nào?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Bộ luật Lao động này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021 [blld-2019:B:p083:001].",
+  "citations": [
+   "blld-2019:B:p083:001"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1089,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "thời điểm áp dụng",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p046:001",
+      "page": 46,
+      "score": 0.833397,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p045:002",
+      "page": 45,
+      "score": 0.830535,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p083:001",
+      "page": 83,
+      "score": 0.830047,
+      "rank": 3
+     }
+    ],
+    "ms": 97
+   },
+   {
+    "event": "llm",
+    "ms": 1783,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p046:001",
+   "blld-2019:B:p045:002",
+   "blld-2019:B:p083:001"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1769,
+   "completion_tokens": 83
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.97
+ },
+ {
+  "query_id": "q18",
+  "question": "Nếu do chu kỳ lao động mà không thể nghỉ hằng tuần thì người lao động phải được bảo đảm nghỉ như thế nào?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Nếu do chu kỳ lao động mà không thể nghỉ hằng tuần, người lao động phải được bảo đảm nghỉ tính bình quân 01 tháng ít nhất 04 ngày [blld-2019:B:p041:003].",
+  "citations": [
+   "blld-2019:B:p041:003"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1301,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "nghỉ hằng tuần chu kỳ lao động",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p041:003",
+      "page": 41,
+      "score": 0.905176,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p041:001",
+      "page": 41,
+      "score": 0.877784,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p041:004",
+      "page": 41,
+      "score": 0.875465,
+      "rank": 3
+     }
+    ],
+    "ms": 99
+   },
+   {
+    "event": "llm",
+    "ms": 3104,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p041:003",
+   "blld-2019:B:p041:001",
+   "blld-2019:B:p041:004"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1640,
+   "completion_tokens": 99
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 4.5
+ },
+ {
+  "query_id": "q19",
+  "question": "Người lao động làm việc vào ban đêm thì được trả thêm ít nhất bao nhiêu phần trăm tiền lương?",
+  "filter": {
+   "chapter": 6
+  },
+  "status": "answered",
+  "answer": "Người lao động làm việc vào ban đêm thì được trả thêm ít nhất bằng 30% tiền lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc của ngày làm việc bình thường [blld-2019:B:p037:003].",
+  "citations": [
+   "blld-2019:B:p037:003"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1124,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "làm việc vào ban đêm tiền lương",
+    "filter": {
+     "chapter": 6
+    },
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p037:003",
+      "page": 37,
+      "score": 0.884578,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p036:003",
+      "page": 36,
+      "score": 0.842822,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p039:000",
+      "page": 39,
+      "score": 0.831477,
+      "rank": 3
+     }
+    ],
+    "ms": 49
+   },
+   {
+    "event": "llm",
+    "ms": 1507,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p037:003",
+   "blld-2019:B:p036:003",
+   "blld-2019:B:p039:000"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1749,
+   "completion_tokens": 111
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.68
+ },
+ {
+  "query_id": "q20",
+  "question": "Tuổi nghỉ hưu của lao động nam trong điều kiện lao động bình thường sẽ được điều chỉnh đến bao nhiêu tuổi, vào năm nào?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Tuổi nghỉ hưu của lao động nam trong điều kiện lao động bình thường sẽ được điều chỉnh đến 62 tuổi vào năm 2028 [blld-2019:B:p060:003].",
+  "citations": [
+   "blld-2019:B:p060:003"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1214,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "tuổi nghỉ hưu lao động nam điều kiện lao động bình thường",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p060:003",
+      "page": 60,
+      "score": 0.896287,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p081:001",
+      "page": 81,
+      "score": 0.88321,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p060:004",
+      "page": 60,
+      "score": 0.879352,
+      "rank": 3
+     }
+    ],
+    "ms": 64
+   },
+   {
+    "event": "llm",
+    "ms": 1893,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p060:003",
+   "blld-2019:B:p081:001",
+   "blld-2019:B:p060:004"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1862,
+   "completion_tokens": 99
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.17
+ },
+ {
+  "query_id": "q21",
+  "question": "Người lao động được nghỉ Tết Âm lịch bao nhiêu ngày có hưởng lương?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Người lao động được nghỉ Tết Âm lịch 05 ngày có hưởng nguyên lương [blld-2019:B:p041:004].",
+  "citations": [
+   "blld-2019:B:p041:004"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1211,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "nghỉ Tết Âm lịch có hưởng lương",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p041:004",
+      "page": 41,
+      "score": 0.904806,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p042:000",
+      "page": 42,
+      "score": 0.862409,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p039:000",
+      "page": 39,
+      "score": 0.85549,
+      "rank": 3
+     }
+    ],
+    "ms": 58
+   },
+   {
+    "event": "llm",
+    "ms": 1329,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p041:004",
+   "blld-2019:B:p042:000",
+   "blld-2019:B:p039:000"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1546,
+   "completion_tokens": 87
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.6
+ },
+ {
+  "query_id": "q22",
+  "question": "Làm lâu năm cho cùng một công ty thì số ngày phép năm có được cộng thêm không, cộng thế nào?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Cứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm của người lao động được tăng thêm 01 ngày [blld-2019:B:p042:003].",
+  "citations": [
+   "blld-2019:B:p042:003"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1069,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "ngày phép năm cộng thêm",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p042:003",
+      "page": 42,
+      "score": 0.862606,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p040:001",
+      "page": 40,
+      "score": 0.842365,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p042:000",
+      "page": 42,
+      "score": 0.839954,
+      "rank": 3
+     }
+    ],
+    "ms": 55
+   },
+   {
+    "event": "llm",
+    "ms": 2510,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p042:003",
+   "blld-2019:B:p040:001",
+   "blld-2019:B:p042:000"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1759,
+   "completion_tokens": 94
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.63
+ },
+ {
+  "query_id": "q23",
+  "question": "Thời hạn tạm đình chỉ công việc người lao động tối đa là bao lâu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Thời hạn tạm đình chỉ công việc của người lao động không quá 15 ngày, trong trường hợp đặc biệt không quá 90 ngày [blld-2019:B:p047:003].",
+  "citations": [
+   "blld-2019:B:p047:003"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1121,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "thời hạn tạm đình chỉ công việc người lao động",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p047:003",
+      "page": 47,
+      "score": 0.905585,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p047:004",
+      "page": 47,
+      "score": 0.893791,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p012:002",
+      "page": 12,
+      "score": 0.886936,
+      "rank": 3
+     }
+    ],
+    "ms": 58
+   },
+   {
+    "event": "llm",
+    "ms": 1682,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p047:003",
+   "blld-2019:B:p047:004",
+   "blld-2019:B:p012:002"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1628,
+   "completion_tokens": 97
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.86
+ },
+ {
+  "query_id": "q24",
+  "question": "Mỗi tháng người sử dụng lao động được khấu trừ tối đa bao nhiêu phần trăm tiền lương của người lao động?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Mỗi tháng, người sử dụng lao động được khấu trừ tối đa 30% tiền lương thực trả của người lao động sau khi đã trích nộp các khoản bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp và thuế thu nhập cá nhân [blld-2019:B:p039:001].",
+  "citations": [
+   "blld-2019:B:p039:001"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1099,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "khấu trừ tiền lương của người lao động",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p039:001",
+      "page": 39,
+      "score": 0.907632,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p047:004",
+      "page": 47,
+      "score": 0.87433,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p038:003",
+      "page": 38,
+      "score": 0.867276,
+      "rank": 3
+     }
+    ],
+    "ms": 47
+   },
+   {
+    "event": "llm",
+    "ms": 1876,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p039:001",
+   "blld-2019:B:p047:004",
+   "blld-2019:B:p038:003"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1604,
+   "completion_tokens": 126
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.02
+ },
+ {
+  "query_id": "u04",
+  "question": "Lao động nam được nghỉ bao nhiêu ngày hưởng chế độ thai sản khi vợ sinh con?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Lao động nam khi vợ sinh con được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội, nhưng không nêu cụ thể số ngày nghỉ [blld-2019:B:p051:001].",
+  "citations": [
+   "blld-2019:B:p051:001"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1276,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "nghỉ chế độ thai sản lao động nam vợ sinh con",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p051:001",
+      "page": 51,
+      "score": 0.893265,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p051:002",
+      "page": 51,
+      "score": 0.887559,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p051:003",
+      "page": 51,
+      "score": 0.877474,
+      "rank": 3
+     }
+    ],
+    "ms": 43
+   },
+   {
+    "event": "llm",
+    "ms": 1689,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p051:001",
+   "blld-2019:B:p051:002",
+   "blld-2019:B:p051:003"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 1722,
+   "completion_tokens": 108
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.01
+ },
+ {
+  "query_id": "u05",
+  "question": "Mức hưởng trợ cấp thất nghiệp hằng tháng bằng bao nhiêu phần trăm mức lương bình quân đóng bảo hiểm thất nghiệp?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không tìm thấy thông tin cụ thể về mức hưởng trợ cấp thất nghiệp hằng tháng trong tài liệu.",
+  "citations": [],
+  "stop_reason": "model_abstain",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1129,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức hưởng trợ cấp thất nghiệp hằng tháng",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p019:001",
+      "page": 19,
+      "score": 0.872234,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p019:003",
+      "page": 19,
+      "score": 0.868614,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p017:001",
+      "page": 17,
+      "score": 0.84917,
+      "rank": 3
+     }
+    ],
+    "ms": 85
+   },
+   {
+    "event": "llm",
+    "ms": 1080,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "trợ cấp thất nghiệp",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p019:003",
+      "page": 19,
+      "score": 0.864656,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p019:001",
+      "page": 19,
+      "score": 0.859415,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p052:000",
+      "page": 52,
+      "score": 0.84598,
+      "rank": 3
+     }
+    ],
+    "ms": 73
+   },
+   {
+    "event": "llm",
+    "ms": 1425,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức hưởng trợ cấp thất nghiệp",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p019:003",
+      "page": 19,
+      "score": 0.866537,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p019:001",
+      "page": 19,
+      "score": 0.864931,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p081:000",
+      "page": 81,
+      "score": 0.851348,
+      "rank": 3
+     }
+    ],
+    "ms": 120
+   },
+   {
+    "event": "llm",
+    "ms": 1123,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "trợ cấp thất nghiệp",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p019:003",
+      "page": 19,
+      "score": 0.864656,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p019:001",
+      "page": 19,
+      "score": 0.859415,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p052:000",
+      "page": 52,
+      "score": 0.84598,
+      "rank": 3
+     }
+    ],
+    "ms": 98
+   },
+   {
+    "event": "llm",
+    "ms": 1153,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức hưởng trợ cấp thất nghiệp",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p019:003",
+      "page": 19,
+      "score": 0.866537,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p019:001",
+      "page": 19,
+      "score": 0.864931,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p081:000",
+      "page": 81,
+      "score": 0.851348,
+      "rank": 3
+     }
+    ],
+    "ms": 88
+   },
+   {
+    "event": "llm",
+    "ms": 1194,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "trợ cấp thất nghiệp hàng tháng",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p019:001",
+      "page": 19,
+      "score": 0.866809,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p019:003",
+      "page": 19,
+      "score": 0.865582,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p017:001",
+      "page": 17,
+      "score": 0.843624,
+      "rank": 3
+     }
+    ],
+    "ms": 104
+   },
+   {
+    "event": "llm",
+    "ms": 1119,
+    "forced_final": true,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p019:001",
+   "blld-2019:B:p019:003",
+   "blld-2019:B:p017:001",
+   "blld-2019:B:p052:000",
+   "blld-2019:B:p081:000"
+  ],
+  "llm_calls": 7,
+  "tool_calls": 6,
+  "usage": {
+   "prompt_tokens": 20145,
+   "completion_tokens": 147
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 8.79
+ },
+ {
+  "query_id": "u06",
+  "question": "Người sử dụng lao động trả lương chậm sẽ bị phạt tiền hành chính bao nhiêu?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không có thông tin cụ thể về mức phạt tiền hành chính đối với người sử dụng lao động trả lương chậm trong Bộ luật Lao động 2019.",
+  "citations": [],
+  "stop_reason": "model_abstain",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1133,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "phạt tiền hành chính trả lương chậm",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p037:002",
+      "page": 37,
+      "score": 0.859754,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p047:004",
+      "page": 47,
+      "score": 0.849016,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p038:003",
+      "page": 38,
+      "score": 0.84199,
+      "rank": 3
+     }
+    ],
+    "ms": 103
+   },
+   {
+    "event": "llm",
+    "ms": 1145,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức phạt tiền hành chính đối với người sử dụng lao động",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p039:001",
+      "page": 39,
+      "score": 0.862536,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p059:002",
+      "page": 59,
+      "score": 0.862285,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p047:004",
+      "page": 47,
+      "score": 0.860003,
+      "rank": 3
+     }
+    ],
+    "ms": 102
+   },
+   {
+    "event": "llm",
+    "ms": 1328,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "phạt tiền hành chính đối với việc trả lương chậm",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p037:002",
+      "page": 37,
+      "score": 0.86683,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p047:004",
+      "page": 47,
+      "score": 0.857424,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p038:003",
+      "page": 38,
+      "score": 0.850234,
+      "rank": 3
+     }
+    ],
+    "ms": 110
+   },
+   {
+    "event": "llm",
+    "ms": 1327,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức phạt đối với người sử dụng lao động trả lương chậm",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p037:002",
+      "page": 37,
+      "score": 0.880706,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p047:004",
+      "page": 47,
+      "score": 0.870488,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p039:001",
+      "page": 39,
+      "score": 0.865617,
+      "rank": 3
+     }
+    ],
+    "ms": 94
+   },
+   {
+    "event": "llm",
+    "ms": 1132,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "xử phạt hành chính người sử dụng lao động",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p059:002",
+      "page": 59,
+      "score": 0.874974,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p047:002",
+      "page": 47,
+      "score": 0.873963,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p047:004",
+      "page": 47,
+      "score": 0.870566,
+      "rank": 3
+     }
+    ],
+    "ms": 87
+   },
+   {
+    "event": "llm",
+    "ms": 1352,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức phạt tiền đối với người sử dụng lao động trả lương chậm",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "blld-2019:B:p037:002",
+      "page": 37,
+      "score": 0.881298,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p047:004",
+      "page": 47,
+      "score": 0.870101,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p039:001",
+      "page": 39,
+      "score": 0.867741,
+      "rank": 3
+     }
+    ],
+    "ms": 104
+   },
+   {
+    "event": "llm",
+    "ms": 1268,
+    "forced_final": true,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p037:002",
+   "blld-2019:B:p047:004",
+   "blld-2019:B:p038:003",
+   "blld-2019:B:p039:001",
+   "blld-2019:B:p059:002",
+   "blld-2019:B:p047:002"
+  ],
+  "llm_calls": 7,
+  "tool_calls": 6,
+  "usage": {
+   "prompt_tokens": 13061,
+   "completion_tokens": 200
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 9.29
+ }
+]

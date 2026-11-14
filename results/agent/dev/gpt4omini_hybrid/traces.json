@@ -1,0 +1,2746 @@
+[
+ {
+  "query_id": "q01",
+  "question": "Độ tuổi lao động tối thiểu của người lao động là bao nhiêu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Độ tuổi lao động tối thiểu của người lao động là đủ 15 tuổi [blld-2019:B:p001:003].",
+  "citations": [
+   "blld-2019:B:p001:003"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1894,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "độ tuổi lao động tối thiểu",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p001:002",
+     "blld-2019:B:p002:000",
+     "blld-2019:B:p080:002",
+     "blld-2019:B:p081:000",
+     "blld-2019:B:p081:000",
+     "blld-2019:B:p081:002"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p001:003",
+      "page": 1,
+      "score": 0.032002,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p080:003",
+      "page": 80,
+      "score": 0.031025,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p081:001",
+      "page": 81,
+      "score": 0.030478,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p001:002",
+      "page": 1,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p002:000",
+      "page": 2,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p080:002",
+      "page": 80,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p081:000",
+      "page": 81,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p081:000",
+      "page": 81,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p081:002",
+      "page": 81,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 148
+   },
+   {
+    "event": "llm",
+    "ms": 1500,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p001:003",
+   "blld-2019:B:p080:003",
+   "blld-2019:B:p081:001",
+   "blld-2019:B:p001:002",
+   "blld-2019:B:p002:000",
+   "blld-2019:B:p080:002",
+   "blld-2019:B:p081:000"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 3311,
+   "completion_tokens": 81
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.54
+ },
+ {
+  "query_id": "q02",
+  "question": "Hợp đồng lao động xác định thời hạn có thời hạn tối đa là bao lâu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Hợp đồng lao động xác định thời hạn có thời hạn tối đa là 36 tháng kể từ thời điểm có hiệu lực của hợp đồng [blld-2019:B:p008:002].",
+  "citations": [
+   "blld-2019:B:p008:002"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1054,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "hợp đồng lao động xác định thời hạn tối đa",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p057:000",
+     "blld-2019:B:p057:002",
+     "blld-2019:B:p008:001",
+     "blld-2019:B:p008:003",
+     "blld-2019:B:p008:002",
+     "blld-2019:B:p009:000"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p057:001",
+      "page": 57,
+      "score": 0.031778,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p008:002",
+      "page": 8,
+      "score": 0.031754,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p008:003",
+      "page": 8,
+      "score": 0.031746,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p057:000",
+      "page": 57,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p057:002",
+      "page": 57,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p008:001",
+      "page": 8,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p008:003",
+      "page": 8,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p008:002",
+      "page": 8,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p009:000",
+      "page": 9,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 49
+   },
+   {
+    "event": "llm",
+    "ms": 1714,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p057:001",
+   "blld-2019:B:p008:002",
+   "blld-2019:B:p008:003",
+   "blld-2019:B:p057:000",
+   "blld-2019:B:p057:002",
+   "blld-2019:B:p008:001",
+   "blld-2019:B:p009:000"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2648,
+   "completion_tokens": 95
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.82
+ },
+ {
+  "query_id": "q03",
+  "question": "Thời gian thử việc tối đa đối với công việc cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên là bao nhiêu ngày?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Thời gian thử việc tối đa đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên là 60 ngày [blld-2019:B:p010:003].",
+  "citations": [
+   "blld-2019:B:p010:003"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1518,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "thời gian thử việc tối đa công việc trình độ chuyên môn kỹ thuật cao đẳng",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p010:002",
+     "blld-2019:B:p010:004",
+     "blld-2019:B:p010:004",
+     "blld-2019:B:p011:000",
+     "blld-2019:B:p043:000",
+     "blld-2019:B:p043:002"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p010:003",
+      "page": 10,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p010:005",
+      "page": 10,
+      "score": 0.029828,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p043:001",
+      "page": 43,
+      "score": 0.029762,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p010:002",
+      "page": 10,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p010:004",
+      "page": 10,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p010:004",
+      "page": 10,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p011:000",
+      "page": 11,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p043:000",
+      "page": 43,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p043:002",
+      "page": 43,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 61
+   },
+   {
+    "event": "llm",
+    "ms": 1688,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p010:003",
+   "blld-2019:B:p010:005",
+   "blld-2019:B:p043:001",
+   "blld-2019:B:p010:002",
+   "blld-2019:B:p010:004",
+   "blld-2019:B:p011:000",
+   "blld-2019:B:p043:000",
+   "blld-2019:B:p043:002"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2680,
+   "completion_tokens": 108
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.27
+ },
+ {
+  "query_id": "q04",
+  "question": "Trong lúc còn đang thử việc, tôi phải được nhận tối thiểu bao nhiêu phần trăm mức lương của vị trí đó?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Trong thời gian thử việc, người lao động phải được nhận tối thiểu 85% mức lương của công việc đó [blld-2019:B:p010:004].",
+  "citations": [
+   "blld-2019:B:p010:004"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1229,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "thử việc mức lương tối thiểu",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p035:003",
+     "blld-2019:B:p035:005",
+     "blld-2019:B:p010:003",
+     "blld-2019:B:p010:005",
+     "blld-2019:B:p038:000",
+     "blld-2019:B:p038:002"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p035:004",
+      "page": 35,
+      "score": 0.032522,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p010:004",
+      "page": 10,
+      "score": 0.031778,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p038:001",
+      "page": 38,
+      "score": 0.031054,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p035:003",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p035:005",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p010:003",
+      "page": 10,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p010:005",
+      "page": 10,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p038:000",
+      "page": 38,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p038:002",
+      "page": 38,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 48
+   },
+   {
+    "event": "llm",
+    "ms": 1670,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p035:004",
+   "blld-2019:B:p010:004",
+   "blld-2019:B:p038:001",
+   "blld-2019:B:p035:003",
+   "blld-2019:B:p035:005",
+   "blld-2019:B:p010:003",
+   "blld-2019:B:p010:005",
+   "blld-2019:B:p038:000",
+   "blld-2019:B:p038:002"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2612,
+   "completion_tokens": 90
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.95
+ },
+ {
+  "query_id": "q05",
+  "question": "Trường hợp nào thì không được áp dụng thử việc đối với người lao động?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Không áp dụng thử việc đối với người lao động giao kết hợp đồng lao động có thời hạn dưới 01 tháng [blld-2019:B:p010:002].",
+  "citations": [
+   "blld-2019:B:p010:002"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1126,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "không được áp dụng thử việc đối với người lao động",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p010:001",
+     "blld-2019:B:p010:003",
+     "blld-2019:B:p013:002",
+     "blld-2019:B:p014:001",
+     "blld-2019:B:p010:005",
+     "blld-2019:B:p011:001"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p010:002",
+      "page": 10,
+      "score": 0.032522,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p014:000",
+      "page": 14,
+      "score": 0.032018,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p011:000",
+      "page": 11,
+      "score": 0.032002,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p010:001",
+      "page": 10,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p010:003",
+      "page": 10,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p013:002",
+      "page": 13,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p014:001",
+      "page": 14,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p010:005",
+      "page": 10,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p011:001",
+      "page": 11,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 67
+   },
+   {
+    "event": "llm",
+    "ms": 1583,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p010:002",
+   "blld-2019:B:p014:000",
+   "blld-2019:B:p011:000",
+   "blld-2019:B:p010:001",
+   "blld-2019:B:p010:003",
+   "blld-2019:B:p013:002",
+   "blld-2019:B:p014:001",
+   "blld-2019:B:p010:005",
+   "blld-2019:B:p011:001"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2537,
+   "completion_tokens": 91
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.78
+ },
+ {
+  "query_id": "q06",
+  "question": "Người lao động làm việc theo hợp đồng không xác định thời hạn muốn đơn phương chấm dứt hợp đồng thì phải báo trước ít nhất bao nhiêu ngày?",
+  "filter": {
+   "chapter": 3
+  },
+  "status": "answered",
+  "answer": "Người lao động làm việc theo hợp đồng không xác định thời hạn phải báo trước ít nhất 45 ngày khi đơn phương chấm dứt hợp đồng [blld-2019:B:p014:001].",
+  "citations": [
+   "blld-2019:B:p014:001"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1229,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "đơn phương chấm dứt hợp đồng không xác định thời hạn báo trước",
+    "filter": {
+     "chapter": 3
+    },
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p014:000",
+     "blld-2019:B:p014:002",
+     "blld-2019:B:p016:000",
+     "blld-2019:B:p016:002",
+     "blld-2019:B:p015:002",
+     "blld-2019:B:p016:001"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p014:001",
+      "page": 14,
+      "score": 0.032522,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p016:001",
+      "page": 16,
+      "score": 0.032522,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p016:000",
+      "page": 16,
+      "score": 0.031498,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p014:000",
+      "page": 14,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p014:002",
+      "page": 14,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p016:000",
+      "page": 16,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p016:002",
+      "page": 16,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p015:002",
+      "page": 15,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p016:001",
+      "page": 16,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 64
+   },
+   {
+    "event": "llm",
+    "ms": 2497,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p014:001",
+   "blld-2019:B:p016:001",
+   "blld-2019:B:p016:000",
+   "blld-2019:B:p014:000",
+   "blld-2019:B:p014:002",
+   "blld-2019:B:p016:002",
+   "blld-2019:B:p015:002"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2914,
+   "completion_tokens": 105
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.79
+ },
+ {
+  "query_id": "q07",
+  "question": "Người lao động bị quấy rối tình dục tại nơi làm việc muốn nghỉ việc thì có phải báo trước cho người sử dụng lao động không?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Người lao động bị quấy rối tình dục tại nơi làm việc có quyền đơn phương chấm dứt hợp đồng lao động mà không cần báo trước cho người sử dụng lao động [blld-2019:B:p014:002].",
+  "citations": [
+   "blld-2019:B:p014:002"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1149,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "quấy rối tình dục nghỉ việc báo trước",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p002:001",
+     "blld-2019:B:p002:003",
+     "blld-2019:B:p014:001",
+     "blld-2019:B:p015:000",
+     "blld-2019:B:p015:002",
+     "blld-2019:B:p016:001"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p002:002",
+      "page": 2,
+      "score": 0.032522,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p014:002",
+      "page": 14,
+      "score": 0.031545,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p016:000",
+      "page": 16,
+      "score": 0.030835,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p002:001",
+      "page": 2,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p002:003",
+      "page": 2,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p014:001",
+      "page": 14,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p015:000",
+      "page": 15,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p015:002",
+      "page": 15,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p016:001",
+      "page": 16,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 57
+   },
+   {
+    "event": "llm",
+    "ms": 1701,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p002:002",
+   "blld-2019:B:p014:002",
+   "blld-2019:B:p016:000",
+   "blld-2019:B:p002:001",
+   "blld-2019:B:p002:003",
+   "blld-2019:B:p014:001",
+   "blld-2019:B:p015:000",
+   "blld-2019:B:p016:001"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 3004,
+   "completion_tokens": 105
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.91
+ },
+ {
+  "query_id": "q08",
+  "question": "Mức trợ cấp thôi việc cho mỗi năm làm việc là bao nhiêu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Mức trợ cấp thôi việc cho mỗi năm làm việc là một nửa tháng tiền lương [blld-2019:B:p019:001].",
+  "citations": [
+   "blld-2019:B:p019:001"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 995,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức trợ cấp thôi việc",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p019:000",
+     "blld-2019:B:p019:002",
+     "blld-2019:B:p017:000",
+     "blld-2019:B:p017:002",
+     "blld-2019:B:p017:003",
+     "blld-2019:B:p018:001"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p019:001",
+      "page": 19,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p017:001",
+      "page": 17,
+      "score": 0.031514,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p018:000",
+      "page": 18,
+      "score": 0.031498,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p019:000",
+      "page": 19,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p019:002",
+      "page": 19,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p017:000",
+      "page": 17,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p017:002",
+      "page": 17,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p017:003",
+      "page": 17,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p018:001",
+      "page": 18,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 48
+   },
+   {
+    "event": "llm",
+    "ms": 1577,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p019:001",
+   "blld-2019:B:p017:001",
+   "blld-2019:B:p018:000",
+   "blld-2019:B:p019:000",
+   "blld-2019:B:p019:002",
+   "blld-2019:B:p017:000",
+   "blld-2019:B:p017:002",
+   "blld-2019:B:p017:003",
+   "blld-2019:B:p018:001"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2770,
+   "completion_tokens": 81
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.62
+ },
+ {
+  "query_id": "q09",
+  "question": "Vì lý do bất khả kháng mà không thể trả lương đúng hạn thì người sử dụng lao động được trả chậm tối đa bao lâu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Người sử dụng lao động được trả lương chậm tối đa 30 ngày trong trường hợp bất khả kháng [blld-2019:B:p037:002].",
+  "citations": [
+   "blld-2019:B:p037:002"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1215,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "trả lương đúng hạn bất khả kháng",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p037:001",
+     "blld-2019:B:p037:003",
+     "blld-2019:B:p036:001",
+     "blld-2019:B:p036:003",
+     "blld-2019:B:p037:000",
+     "blld-2019:B:p037:002"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p037:002",
+      "page": 37,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p036:002",
+      "page": 36,
+      "score": 0.031746,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p037:001",
+      "page": 37,
+      "score": 0.03055,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p037:001",
+      "page": 37,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p037:003",
+      "page": 37,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p036:001",
+      "page": 36,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p036:003",
+      "page": 36,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p037:000",
+      "page": 37,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p037:002",
+      "page": 37,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 54
+   },
+   {
+    "event": "llm",
+    "ms": 2241,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p037:002",
+   "blld-2019:B:p036:002",
+   "blld-2019:B:p037:001",
+   "blld-2019:B:p037:003",
+   "blld-2019:B:p036:001",
+   "blld-2019:B:p036:003",
+   "blld-2019:B:p037:000"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2904,
+   "completion_tokens": 90
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.51
+ },
+ {
+  "query_id": "q10",
+  "question": "Theo giờ làm việc bình thường, mỗi tuần công ty được yêu cầu nhân viên làm tối đa bao nhiêu tiếng?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo quy định, thời giờ làm việc bình thường không quá 48 giờ trong 01 tuần [blld-2019:B:p039:004].",
+  "citations": [
+   "blld-2019:B:p039:004"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1102,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "giờ làm việc bình thường mỗi tuần",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p039:003",
+     "blld-2019:B:p040:000",
+     "blld-2019:B:p041:002",
+     "blld-2019:B:p041:004",
+     "blld-2019:B:p053:002",
+     "blld-2019:B:p053:004"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p039:004",
+      "page": 39,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p041:003",
+      "page": 41,
+      "score": 0.031746,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p053:003",
+      "page": 53,
+      "score": 0.031514,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p039:003",
+      "page": 39,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:000",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p041:002",
+      "page": 41,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p041:004",
+      "page": 41,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p053:002",
+      "page": 53,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p053:004",
+      "page": 53,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 51
+   },
+   {
+    "event": "llm",
+    "ms": 1652,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p039:004",
+   "blld-2019:B:p041:003",
+   "blld-2019:B:p053:003",
+   "blld-2019:B:p039:003",
+   "blld-2019:B:p040:000",
+   "blld-2019:B:p041:002",
+   "blld-2019:B:p041:004",
+   "blld-2019:B:p053:002",
+   "blld-2019:B:p053:004"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2373,
+   "completion_tokens": 83
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.8
+ },
+ {
+  "query_id": "q11",
+  "question": "Số giờ làm thêm tối đa trong một năm là bao nhiêu, và có ngoại lệ nào không?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Số giờ làm thêm tối đa trong một năm là 200 giờ, nhưng có thể lên đến 300 giờ trong một số ngành, nghề hoặc trường hợp đặc biệt [blld-2019:B:p040:001]. Các trường hợp đặc biệt bao gồm: sản xuất hàng xuất khẩu, công việc cấp bách, và các trường hợp khác do Chính phủ quy định [blld-2019:B:p040:002].",
+  "citations": [
+   "blld-2019:B:p040:001",
+   "blld-2019:B:p040:002"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1568,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search",
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "số giờ làm thêm tối đa trong một năm",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p040:000",
+     "blld-2019:B:p040:002",
+     "blld-2019:B:p042:002",
+     "blld-2019:B:p043:000",
+     "blld-2019:B:p053:002",
+     "blld-2019:B:p053:004"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p040:001",
+      "page": 40,
+      "score": 0.032522,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p042:003",
+      "page": 42,
+      "score": 0.031778,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p053:003",
+      "page": 53,
+      "score": 0.031498,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p040:000",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:002",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p042:002",
+      "page": 42,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p043:000",
+      "page": 43,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p053:002",
+      "page": 53,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p053:004",
+      "page": 53,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 58
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "ngoại lệ số giờ làm thêm",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p040:000",
+     "blld-2019:B:p040:002",
+     "blld-2019:B:p040:002",
+     "blld-2019:B:p041:000",
+     "blld-2019:B:p053:002",
+     "blld-2019:B:p053:004"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p040:001",
+      "page": 40,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p040:003",
+      "page": 40,
+      "score": 0.031754,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p053:003",
+      "page": 53,
+      "score": 0.031498,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p040:000",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:002",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:002",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p041:000",
+      "page": 41,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p053:002",
+      "page": 53,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p053:004",
+      "page": 53,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 49
+   },
+   {
+    "event": "llm",
+    "ms": 1743,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "read_neighbours",
+     "read_neighbours"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "read_neighbours",
+    "chunk_id": "blld-2019:B:p040:001",
+    "results": [
+     {
+      "id": "blld-2019:B:p040:000",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:002",
+      "page": 40,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 0
+   },
+   {
+    "event": "search",
+    "tool": "read_neighbours",
+    "chunk_id": "blld-2019:B:p040:002",
+    "results": [
+     {
+      "id": "blld-2019:B:p040:001",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:003",
+      "page": 40,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 0
+   },
+   {
+    "event": "llm",
+    "ms": 1607,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search",
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "trường hợp đặc biệt làm thêm giờ",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p040:002",
+     "blld-2019:B:p041:000",
+     "blld-2019:B:p040:000",
+     "blld-2019:B:p040:002",
+     "blld-2019:B:p043:000",
+     "blld-2019:B:p043:002"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p040:003",
+      "page": 40,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p040:001",
+      "page": 40,
+      "score": 0.032258,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p043:001",
+      "page": 43,
+      "score": 0.031746,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p040:002",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p041:000",
+      "page": 41,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:000",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:002",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p043:000",
+      "page": 43,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p043:002",
+      "page": 43,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 48
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "quy định của Chính phủ về làm thêm giờ",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p040:002",
+     "blld-2019:B:p041:000",
+     "blld-2019:B:p040:000",
+     "blld-2019:B:p040:002",
+     "blld-2019:B:p053:002",
+     "blld-2019:B:p053:004"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p040:003",
+      "page": 40,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p040:001",
+      "page": 40,
+      "score": 0.032258,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p053:003",
+      "page": 53,
+      "score": 0.031258,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p040:002",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p041:000",
+      "page": 41,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:000",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p040:002",
+      "page": 40,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p053:002",
+      "page": 53,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p053:004",
+      "page": 53,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 49
+   },
+   {
+    "event": "llm",
+    "ms": 2052,
+    "forced_final": true,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p040:001",
+   "blld-2019:B:p042:003",
+   "blld-2019:B:p053:003",
+   "blld-2019:B:p040:000",
+   "blld-2019:B:p040:002",
+   "blld-2019:B:p042:002",
+   "blld-2019:B:p043:000",
+   "blld-2019:B:p053:002",
+   "blld-2019:B:p053:004",
+   "blld-2019:B:p040:003"
+  ],
+  "llm_calls": 4,
+  "tool_calls": 6,
+  "usage": {
+   "prompt_tokens": 18158,
+   "completion_tokens": 303
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 7.17
+ },
+ {
+  "query_id": "q12",
+  "question": "Người lao động chưa thành niên được nghỉ hằng năm bao nhiêu ngày?",
+  "filter": {
+   "chapter": 7
+  },
+  "status": "answered",
+  "answer": "Người lao động chưa thành niên được nghỉ hằng năm 14 ngày làm việc [blld-2019:B:p042:001].",
+  "citations": [
+   "blld-2019:B:p042:001"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1327,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "người lao động chưa thành niên nghỉ hằng năm",
+    "filter": {
+     "chapter": 7
+    },
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p042:000",
+     "blld-2019:B:p042:002",
+     "blld-2019:B:p042:001",
+     "blld-2019:B:p042:003",
+     "blld-2019:B:p042:002",
+     "blld-2019:B:p043:000"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p042:001",
+      "page": 42,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p042:002",
+      "page": 42,
+      "score": 0.032258,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p042:003",
+      "page": 42,
+      "score": 0.031746,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p042:000",
+      "page": 42,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p042:002",
+      "page": 42,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p042:001",
+      "page": 42,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p042:003",
+      "page": 42,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p042:002",
+      "page": 42,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p043:000",
+      "page": 43,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 46
+   },
+   {
+    "event": "llm",
+    "ms": 1389,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p042:001",
+   "blld-2019:B:p042:002",
+   "blld-2019:B:p042:003",
+   "blld-2019:B:p042:000",
+   "blld-2019:B:p043:000"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 3112,
+   "completion_tokens": 86
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 2.76
+ },
+ {
+  "query_id": "q13",
+  "question": "Nhân viên tổ chức đám cưới của chính mình thì được nghỉ phép có hưởng lương mấy ngày?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Nhân viên tổ chức đám cưới của mình được nghỉ 03 ngày có hưởng lương [blld-2019:B:p043:000].",
+  "citations": [
+   "blld-2019:B:p043:000"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1262,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "nhân viên tổ chức đám cưới nghỉ phép có hưởng lương",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p042:003",
+     "blld-2019:B:p043:001",
+     "blld-2019:B:p041:003",
+     "blld-2019:B:p042:000",
+     "blld-2019:B:p014:001",
+     "blld-2019:B:p015:000"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p043:000",
+      "page": 43,
+      "score": 0.032002,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p041:004",
+      "page": 41,
+      "score": 0.030282,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p014:002",
+      "page": 14,
+      "score": 0.029631,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p042:003",
+      "page": 42,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p043:001",
+      "page": 43,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p041:003",
+      "page": 41,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p042:000",
+      "page": 42,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p014:001",
+      "page": 14,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p015:000",
+      "page": 15,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 63
+   },
+   {
+    "event": "llm",
+    "ms": 1805,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p043:000",
+   "blld-2019:B:p041:004",
+   "blld-2019:B:p014:002",
+   "blld-2019:B:p042:003",
+   "blld-2019:B:p043:001",
+   "blld-2019:B:p041:003",
+   "blld-2019:B:p042:000",
+   "blld-2019:B:p014:001"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 3043,
+   "completion_tokens": 91
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.13
+ },
+ {
+  "query_id": "q14",
+  "question": "Lao động nữ được nghỉ thai sản trước và sau khi sinh con tổng cộng bao lâu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Lao động nữ được nghỉ thai sản tổng cộng 06 tháng, trong đó thời gian nghỉ trước khi sinh không quá 02 tháng [blld-2019:B:p051:001].",
+  "citations": [
+   "blld-2019:B:p051:001"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1195,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "nghỉ thai sản lao động nữ",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p051:000",
+     "blld-2019:B:p051:002",
+     "blld-2019:B:p051:001",
+     "blld-2019:B:p051:003",
+     "blld-2019:B:p051:002",
+     "blld-2019:B:p052:000"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p051:001",
+      "page": 51,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p051:002",
+      "page": 51,
+      "score": 0.032258,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p051:003",
+      "page": 51,
+      "score": 0.031498,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p051:000",
+      "page": 51,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p051:002",
+      "page": 51,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p051:001",
+      "page": 51,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p051:003",
+      "page": 51,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p051:002",
+      "page": 51,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p052:000",
+      "page": 52,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 51
+   },
+   {
+    "event": "llm",
+    "ms": 2406,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p051:001",
+   "blld-2019:B:p051:002",
+   "blld-2019:B:p051:003",
+   "blld-2019:B:p051:000",
+   "blld-2019:B:p052:000"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2823,
+   "completion_tokens": 91
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.65
+ },
+ {
+  "query_id": "q15",
+  "question": "Người lao động nước ngoài làm việc tại Việt Nam phải đủ bao nhiêu tuổi?",
+  "filter": {
+   "chapter": 11
+  },
+  "status": "answered",
+  "answer": "Người lao động nước ngoài làm việc tại Việt Nam phải đủ 18 tuổi trở lên và có năng lực hành vi dân sự đầy đủ [blld-2019:B:p055:002].",
+  "citations": [
+   "blld-2019:B:p055:002"
+  ],
+  "stop_reason": "final_answer",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1741,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "tuổi lao động nước ngoài làm việc tại Việt Nam",
+    "filter": {
+     "chapter": 11
+    },
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p055:001",
+     "blld-2019:B:p056:000",
+     "blld-2019:B:p055:000",
+     "blld-2019:B:p055:002",
+     "blld-2019:B:p055:002",
+     "blld-2019:B:p056:001"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p055:002",
+      "page": 55,
+      "score": 0.032266,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p055:001",
+      "page": 55,
+      "score": 0.032018,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p056:000",
+      "page": 56,
+      "score": 0.031754,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p055:001",
+      "page": 55,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p056:000",
+      "page": 56,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p055:000",
+      "page": 55,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p055:002",
+      "page": 55,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p055:002",
+      "page": 55,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p056:001",
+      "page": 56,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 47
+   },
+   {
+    "event": "llm",
+    "ms": 1578,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p055:002",
+   "blld-2019:B:p055:001",
+   "blld-2019:B:p056:000",
+   "blld-2019:B:p055:000",
+   "blld-2019:B:p056:001"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 3174,
+   "completion_tokens": 95
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.37
+ },
+ {
+  "query_id": "u01",
+  "question": "Mức lương tối thiểu vùng I hiện nay là bao nhiêu đồng một tháng?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không có thông tin cụ thể về mức lương tối thiểu vùng I trong tài liệu.",
+  "citations": [],
+  "stop_reason": "model_abstain",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1344,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức lương tối thiểu vùng I",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p035:003",
+     "blld-2019:B:p035:005",
+     "blld-2019:B:p035:004",
+     "blld-2019:B:p036:000",
+     "blld-2019:B:p081:000",
+     "blld-2019:B:p081:002"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p035:004",
+      "page": 35,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p035:005",
+      "page": 35,
+      "score": 0.032258,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p081:001",
+      "page": 81,
+      "score": 0.031025,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p035:003",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p035:005",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p035:004",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p036:000",
+      "page": 36,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p081:000",
+      "page": 81,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p081:002",
+      "page": 81,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 55
+   },
+   {
+    "event": "llm",
+    "ms": 1896,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức lương tối thiểu vùng",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p035:003",
+     "blld-2019:B:p035:005",
+     "blld-2019:B:p035:004",
+     "blld-2019:B:p036:000",
+     "blld-2019:B:p038:000",
+     "blld-2019:B:p038:002"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p035:004",
+      "page": 35,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p035:005",
+      "page": 35,
+      "score": 0.032258,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p038:001",
+      "page": 38,
+      "score": 0.030579,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p035:003",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p035:005",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p035:004",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p036:000",
+      "page": 36,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p038:000",
+      "page": 38,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p038:002",
+      "page": 38,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 49
+   },
+   {
+    "event": "llm",
+    "ms": 1992,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p035:004",
+   "blld-2019:B:p035:005",
+   "blld-2019:B:p081:001",
+   "blld-2019:B:p035:003",
+   "blld-2019:B:p036:000",
+   "blld-2019:B:p081:000",
+   "blld-2019:B:p081:002",
+   "blld-2019:B:p038:001"
+  ],
+  "llm_calls": 3,
+  "tool_calls": 2,
+  "usage": {
+   "prompt_tokens": 6839,
+   "completion_tokens": 82
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 5.34
+ },
+ {
+  "query_id": "u02",
+  "question": "Người lao động phải đóng bảo hiểm xã hội bắt buộc bằng bao nhiêu phần trăm tiền lương mỗi tháng?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không có thông tin cụ thể về phần trăm tiền lương mà người lao động phải đóng bảo hiểm xã hội bắt buộc trong tài liệu.",
+  "citations": [],
+  "stop_reason": "model_abstain",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1435,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "phần trăm tiền lương bảo hiểm xã hội bắt buộc",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p060:001",
+     "blld-2019:B:p060:003",
+     "blld-2019:B:p039:000",
+     "blld-2019:B:p039:002",
+     "blld-2019:B:p060:000",
+     "blld-2019:B:p060:002"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p060:002",
+      "page": 60,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p039:001",
+      "page": 39,
+      "score": 0.032258,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p060:001",
+      "page": 60,
+      "score": 0.031498,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p060:001",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:003",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p039:000",
+      "page": 39,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p039:002",
+      "page": 39,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:000",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:002",
+      "page": 60,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 45
+   },
+   {
+    "event": "llm",
+    "ms": 1196,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức đóng bảo hiểm xã hội bắt buộc",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p060:001",
+     "blld-2019:B:p060:003",
+     "blld-2019:B:p060:000",
+     "blld-2019:B:p060:002",
+     "blld-2019:B:p019:004",
+     "blld-2019:B:p020:001"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p060:002",
+      "page": 60,
+      "score": 0.032787,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p060:001",
+      "page": 60,
+      "score": 0.032258,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p020:000",
+      "page": 20,
+      "score": 0.030077,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p060:001",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:003",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:000",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:002",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p019:004",
+      "page": 19,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p020:001",
+      "page": 20,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 49
+   },
+   {
+    "event": "llm",
+    "ms": 1108,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "mức đóng bảo hiểm xã hội",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p060:000",
+     "blld-2019:B:p060:002",
+     "blld-2019:B:p060:001",
+     "blld-2019:B:p060:003",
+     "blld-2019:B:p081:001",
+     "blld-2019:B:p082:000"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p060:001",
+      "page": 60,
+      "score": 0.032522,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p060:002",
+      "page": 60,
+      "score": 0.032522,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p081:002",
+      "page": 81,
+      "score": 0.03031,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p060:000",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:002",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:001",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p060:003",
+      "page": 60,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p081:001",
+      "page": 81,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p082:000",
+      "page": 82,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 46
+   },
+   {
+    "event": "llm",
+    "ms": 1424,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p060:002",
+   "blld-2019:B:p039:001",
+   "blld-2019:B:p060:001",
+   "blld-2019:B:p060:003",
+   "blld-2019:B:p039:000",
+   "blld-2019:B:p039:002",
+   "blld-2019:B:p060:000",
+   "blld-2019:B:p020:000",
+   "blld-2019:B:p019:004",
+   "blld-2019:B:p020:001",
+   "blld-2019:B:p081:002"
+  ],
+  "llm_calls": 4,
+  "tool_calls": 3,
+  "usage": {
+   "prompt_tokens": 11414,
+   "completion_tokens": 119
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 5.3
+ },
+ {
+  "query_id": "u03",
+  "question": "Nhân viên làm việc từ xa được công ty hỗ trợ chi phí internet bao nhiêu mỗi tháng?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không có thông tin cụ thể về mức hỗ trợ chi phí internet cho nhân viên làm việc từ xa trong Bộ luật Lao động Việt Nam.",
+  "citations": [],
+  "stop_reason": "model_abstain",
+  "events": [
+   {
+    "event": "llm",
+    "ms": 1350,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "search"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "nhân viên làm việc từ xa hỗ trợ chi phí internet",
+    "filter": null,
+    "method": "hybrid_rrf(dense+bm25)",
+    "top_k": 3,
+    "auto_neighbours": [
+     "blld-2019:B:p049:004",
+     "blld-2019:B:p050:001",
+     "blld-2019:B:p020:000",
+     "blld-2019:B:p020:002",
+     "blld-2019:B:p035:001",
+     "blld-2019:B:p035:003"
+    ],
+    "results": [
+     {
+      "id": "blld-2019:B:p050:000",
+      "page": 50,
+      "score": 0.031498,
+      "rank": 1
+     },
+     {
+      "id": "blld-2019:B:p020:001",
+      "page": 20,
+      "score": 0.027365,
+      "rank": 2
+     },
+     {
+      "id": "blld-2019:B:p035:002",
+      "page": 35,
+      "score": 0.026879,
+      "rank": 3
+     },
+     {
+      "id": "blld-2019:B:p049:004",
+      "page": 49,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p050:001",
+      "page": 50,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p020:000",
+      "page": 20,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p020:002",
+      "page": 20,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p035:001",
+      "page": 35,
+      "score": null,
+      "rank": null
+     },
+     {
+      "id": "blld-2019:B:p035:003",
+      "page": 35,
+      "score": null,
+      "rank": null
+     }
+    ],
+    "ms": 58
+   },
+   {
+    "event": "llm",
+    "ms": 1668,
+    "forced_final": false,
+    "content": null,
+    "tool_calls": [
+     "final_answer"
+    ]
+   }
+  ],
+  "context_ids": [
+   "blld-2019:B:p050:000",
+   "blld-2019:B:p020:001",
+   "blld-2019:B:p035:002",
+   "blld-2019:B:p049:004",
+   "blld-2019:B:p050:001",
+   "blld-2019:B:p020:000",
+   "blld-2019:B:p020:002",
+   "blld-2019:B:p035:001",
+   "blld-2019:B:p035:003"
+  ],
+  "llm_calls": 2,
+  "tool_calls": 1,
+  "usage": {
+   "prompt_tokens": 2589,
+   "completion_tokens": 74
+  },
+  "model": "openai/gpt-4o-mini",
+  "provider": "openrouter",
+  "elapsed_s": 3.08
+ }
+]

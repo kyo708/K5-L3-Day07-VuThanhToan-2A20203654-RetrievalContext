@@ -1,0 +1,8 @@
+# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+psycopg[binary]==3.3.8
+pypdf>=5,<7
+python-dotenv>=1,<2
+# Renders scanned pages to images for OCR (scripts/ocr_pdf.py).
+pymupdf
+# Local embedding model (intfloat/multilingual-e5-base); pulls in torch.
+sentence-transformers>=5,<7

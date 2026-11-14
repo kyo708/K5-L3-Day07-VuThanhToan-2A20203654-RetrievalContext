@@ -1,0 +1,20 @@
+[
+ {"query_id": "q01", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q02", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q03", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q04", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q05", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q06", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q07", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q08", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q09", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q10", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q11", "answer_grade": 2, "citation_support": [true, true, false], "note": "200 giờ và 300 giờ đúng (p040:001). Danh sách trường hợp (cấp bách, trình độ cao, Chính phủ quy định) khớp p040:002 điểm c, d, đ. p040:003 là Điều 108 (làm thêm giờ trường hợp đặc biệt, không giới hạn số giờ), không phải danh sách ngành được làm 300 giờ -> citation này false."},
+ {"query_id": "q12", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q13", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q14", "answer_grade": 0, "citation_support": [], "note": "Abstain nhầm trên câu có đáp án -> 0. Model có trả lời (xem rejected_answer) nhưng không chèn [chunk_id] vào answer nên bị loại (invalid_citations)."},
+ {"query_id": "q15", "answer_grade": 2, "citation_support": [true], "note": "Đủ 18 tuổi và có năng lực hành vi dân sự đầy đủ; khớp Điều 151 khoản 1 điểm a."},
+ {"query_id": "u01", "abstention_correct": true, "citation_support": [], "note": "Từ chối, không đưa con số nào. Đúng: Điều 91 chỉ nói Chính phủ công bố mức lương tối thiểu."},
+ {"query_id": "u02", "abstention_correct": true, "citation_support": [], "note": "Từ chối, không đưa tỷ lệ nào. Đúng: tỷ lệ đóng BHXH thuộc Luật BHXH."},
+ {"query_id": "u03", "abstention_correct": true, "citation_support": [], "note": "Từ chối. Đúng: Bộ luật không quy định làm việc từ xa hay chi phí internet."}
+]

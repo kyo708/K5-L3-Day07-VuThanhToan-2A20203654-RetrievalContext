@@ -1,0 +1,19 @@
+{
+ "split": "test",
+ "tag": "baseline",
+ "provider": "openrouter",
+ "model": "openai/gpt-4o-mini",
+ "retriever": "dense",
+ "top_k": 3,
+ "neighbours": 0,
+ "budget_chars": 6000,
+ "max_tool_calls": 6,
+ "temperature": 0.0,
+ "n": 12,
+ "errors": 0,
+ "prompt_tokens": 50134,
+ "completion_tokens": 1335,
+ "cost_usd": 0.0,
+ "total_elapsed_s": 50.3,
+ "ran_at": "2026-11-14T23:38:21+0700"
+}

@@ -1,0 +1,404 @@
+{
+ "split": "dev",
+ "index_strategy": "B",
+ "model_load_seconds": 55.3,
+ "ran_at": "2026-11-14T15:44:04+0700",
+ "summaries": [
+  {
+   "config": "dense_k3",
+   "description": "Dense e5-base trên pgvector Day 6, index B (baseline)",
+   "method": "dense",
+   "context_top_k": 3,
+   "budget_chars": 3000,
+   "neighbours": 0,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.733
+   },
+   "hit3": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.867
+   },
+   "hit10": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "mrr10": 0.826,
+   "context_evidence_rate": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.867
+   },
+   "avg_context_chars": 2228,
+   "median_ms": 165.3,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q05",
+    "q07"
+   ]
+  },
+  {
+   "config": "bm25_k3",
+   "description": "BM25 âm tiết có dấu",
+   "method": "bm25",
+   "context_top_k": 3,
+   "budget_chars": 3000,
+   "neighbours": 0,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 8,
+    "N": 15,
+    "rate": 0.533
+   },
+   "hit3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "hit10": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "mrr10": 0.711,
+   "context_evidence_rate": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "avg_context_chars": 2186,
+   "median_ms": 3.9,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q07"
+   ]
+  },
+  {
+   "config": "bm25fold_k3",
+   "description": "BM25 bỏ dấu + bigram (giả thuyết: chịu lỗi dấu OCR)",
+   "method": "bm25_fold_bi",
+   "context_top_k": 3,
+   "budget_chars": 3000,
+   "neighbours": 0,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 9,
+    "N": 15,
+    "rate": 0.6
+   },
+   "hit3": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+   },
+   "hit10": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "mrr10": 0.706,
+   "context_evidence_rate": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+   },
+   "avg_context_chars": 2124,
+   "median_ms": 5.8,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q02",
+    "q07",
+    "q13"
+   ]
+  },
+  {
+   "config": "hybrid_fold_k3",
+   "description": "RRF(dense, BM25 bỏ dấu), k=60, 30 candidate mỗi nhánh",
+   "method": "hybrid_rrf(dense+bm25_fold_bi)",
+   "context_top_k": 3,
+   "budget_chars": 3000,
+   "neighbours": 0,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.733
+   },
+   "hit3": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.867
+   },
+   "hit10": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "mrr10": 0.817,
+   "context_evidence_rate": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.867
+   },
+   "avg_context_chars": 2062,
+   "median_ms": 179.2,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q02",
+    "q07"
+   ]
+  },
+  {
+   "config": "hybrid_k3",
+   "description": "RRF(dense, BM25 có dấu), k=60, 30 candidate mỗi nhánh",
+   "method": "hybrid_rrf(dense+bm25)",
+   "context_top_k": 3,
+   "budget_chars": 3000,
+   "neighbours": 0,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+   },
+   "hit3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "hit10": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "mrr10": 0.865,
+   "context_evidence_rate": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "avg_context_chars": 2207,
+   "median_ms": 185.9,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q07"
+   ]
+  },
+  {
+   "config": "rerank_k3",
+   "description": "Hybrid RRF lấy 20 candidate -> bge-reranker-v2-m3",
+   "method": "rerank(hybrid_rrf(dense+bm25))",
+   "context_top_k": 3,
+   "budget_chars": 3000,
+   "neighbours": 0,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "hit3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "hit10": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "mrr10": 0.942,
+   "context_evidence_rate": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "avg_context_chars": 2363,
+   "median_ms": 31121.7,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q07"
+   ]
+  },
+  {
+   "config": "dense_k5",
+   "description": "Dense, top-5 vào context, budget 5000",
+   "method": "dense",
+   "context_top_k": 5,
+   "budget_chars": 5000,
+   "neighbours": 0,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.733
+   },
+   "hit3": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.867
+   },
+   "hit10": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "mrr10": 0.826,
+   "context_evidence_rate": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "avg_context_chars": 3888,
+   "median_ms": 187.4,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q05",
+    "q07"
+   ]
+  },
+  {
+   "config": "dense_k3_nb",
+   "description": "Dense top-3 + 1 chunk lân cận mỗi bên, budget 6000",
+   "method": "dense",
+   "context_top_k": 3,
+   "budget_chars": 6000,
+   "neighbours": 1,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.733
+   },
+   "hit3": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.867
+   },
+   "hit10": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "mrr10": 0.826,
+   "context_evidence_rate": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "avg_context_chars": 4954,
+   "median_ms": 196.9,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q05",
+    "q07"
+   ]
+  },
+  {
+   "config": "rerank_k3_nb",
+   "description": "Rerank top-3 + 1 chunk lân cận mỗi bên, budget 6000",
+   "method": "rerank(hybrid_rrf(dense+bm25))",
+   "context_top_k": 3,
+   "budget_chars": 6000,
+   "neighbours": 1,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "hit3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "hit10": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "mrr10": 0.942,
+   "context_evidence_rate": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "avg_context_chars": 5015,
+   "median_ms": 30193.1,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q07"
+   ]
+  },
+  {
+   "config": "hybrid_k3_nb",
+   "description": "Hybrid RRF top-3 + 1 chunk lân cận mỗi bên, budget 6000",
+   "method": "hybrid_rrf(dense+bm25)",
+   "context_top_k": 3,
+   "budget_chars": 6000,
+   "neighbours": 1,
+   "split": "dev",
+   "n_questions": 18,
+   "n_answerable": 15,
+   "hit1": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+   },
+   "hit3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+   },
+   "hit10": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "mrr10": 0.865,
+   "context_evidence_rate": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+   },
+   "avg_context_chars": 4716,
+   "median_ms": 819.2,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q07"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "summary": {
+  "agent": "gemma-4-31b-free",
+  "model": "google/gemma-4-31b-it:free",
+  "provider": "openrouter",
+  "note": "Miễn phí, giới hạn rate; hỗ trợ tool calling",
+  "split": "dev",
+  "retriever": "hybrid_rrf(dense+bm25)",
+  "top_k": 3,
+  "budget_chars": 6000,
+  "neighbours": 1,
+  "max_tool_calls": 6,
+  "index_strategy": "B",
+  "limit": 1,
+  "n_questions": 1,
+  "errors": 1,
+  "answered_on_answerable": {
+   "n": 0,
+   "N": 0,
+   "rate": null
+  },
+  "abstain_on_unanswerable": {
+   "n": 0,
+   "N": 0,
+   "rate": null
+  },
+  "context_evidence_rate": {
+   "n": 0,
+   "N": 0,
+   "rate": null
+  },
+  "stop_reasons": {
+   "exception": 1
+  },
+  "mean_llm_calls": null,
+  "mean_tool_calls": null,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "cost_usd": 0.0,
+  "median_s": null,
+  "error_ids": [
+   "q01"
+  ]
+ },
+ "traces": [
+  {
+   "query_id": "q01",
+   "answerable": true,
+   "type": "truc_tiep",
+   "question": "Độ tuổi lao động tối thiểu của người lao động là bao nhiêu?",
+   "filter": null,
+   "status": "error",
+   "answer": null,
+   "citations": [],
+   "stop_reason": "exception",
+   "error": "RateLimitError: Error code: 429 - Provider returned error | google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own provider key to use your own limits: https://openrouter.ai/workspaces/default/byok",
+   "events": [],
+   "context_ids": [],
+   "llm_calls": null,
+   "tool_calls": null,
+   "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "elapsed_s": 4.96
+  }
+ ]
+}

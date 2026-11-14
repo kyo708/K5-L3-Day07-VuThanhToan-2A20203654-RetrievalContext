@@ -1,0 +1,84 @@
+{
+ "split": "test",
+ "index_strategy": "B",
+ "model_load_seconds": 28.2,
+ "ran_at": "2026-11-14T23:36:53+0700",
+ "summaries": [
+  {
+   "config": "dense_k3",
+   "description": "Dense e5-base trên pgvector Day 6, index B (baseline)",
+   "method": "dense",
+   "context_top_k": 3,
+   "budget_chars": 3000,
+   "neighbours": 0,
+   "split": "test",
+   "n_questions": 12,
+   "n_answerable": 9,
+   "hit1": {
+    "n": 8,
+    "N": 9,
+    "rate": 0.889
+   },
+   "hit3": {
+    "n": 8,
+    "N": 9,
+    "rate": 0.889
+   },
+   "hit10": {
+    "n": 9,
+    "N": 9,
+    "rate": 1.0
+   },
+   "mrr10": 0.917,
+   "context_evidence_rate": {
+    "n": 8,
+    "N": 9,
+    "rate": 0.889
+   },
+   "avg_context_chars": 1917,
+   "median_ms": 115.5,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": [
+    "q17"
+   ]
+  },
+  {
+   "config": "hybrid_k3_nb",
+   "description": "Hybrid RRF top-3 + 1 chunk lân cận mỗi bên, budget 6000",
+   "method": "hybrid_rrf(dense+bm25)",
+   "context_top_k": 3,
+   "budget_chars": 6000,
+   "neighbours": 1,
+   "split": "test",
+   "n_questions": 12,
+   "n_answerable": 9,
+   "hit1": {
+    "n": 9,
+    "N": 9,
+    "rate": 1.0
+   },
+   "hit3": {
+    "n": 9,
+    "N": 9,
+    "rate": 1.0
+   },
+   "hit10": {
+    "n": 9,
+    "N": 9,
+    "rate": 1.0
+   },
+   "mrr10": 1.0,
+   "context_evidence_rate": {
+    "n": 9,
+    "N": 9,
+    "rate": 1.0
+   },
+   "avg_context_chars": 4584,
+   "median_ms": 100.0,
+   "errors": 0,
+   "cost_usd": 0.0,
+   "misses_at3": []
+  }
+ ]
+}
